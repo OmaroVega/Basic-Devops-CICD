@@ -24,7 +24,7 @@ jobs:
             
             - name: Run Flask app test
               run: |
-                  echo "Running Flask app test..."
+                  pytest tests/
             
             - name: Build Docker image
               run: |
